@@ -8,170 +8,133 @@ Using pre-set license
 -name
 AssetImportWorker0
 -projectPath
-/Users/mumu/Codes/Unity/3DMMORPG/KnightOfAttack
+/Users/mumu/Codes/Unity/KnightOfAttack
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51090
-Successfully changed project path to: /Users/mumu/Codes/Unity/3DMMORPG/KnightOfAttack
-/Users/mumu/Codes/Unity/3DMMORPG/KnightOfAttack
+49497
+Successfully changed project path to: /Users/mumu/Codes/Unity/KnightOfAttack
+/Users/mumu/Codes/Unity/KnightOfAttack
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1c1 (3d27070cb163)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.4f1c1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/mumu/Codes/Unity/3DMMORPG/KnightOfAttack/Assets
+[Subsystems] Discovering subsystems at path /Users/mumu/Codes/Unity/KnightOfAttack/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-03 23:21:34.549 Unity[4190:52684] U2790B preferred device: AMD Radeon RX 470 (high power)
-2021-06-03 23:21:34.549 Unity[4190:52684] Metal devices available: 1
-2021-06-03 23:21:34.549 Unity[4190:52684] 0: AMD Radeon RX 470 (high power)
-2021-06-03 23:21:34.550 Unity[4190:52684] Using device AMD Radeon RX 470 (high power)
+2021-06-04 23:17:55.884 Unity[797:9272] U2790B preferred device: AMD Radeon RX 470 (high power)
+2021-06-04 23:17:55.884 Unity[797:9272] Metal devices available: 1
+2021-06-04 23:17:55.885 Unity[797:9272] 0: AMD Radeon RX 470 (high power)
+2021-06-04 23:17:55.885 Unity[797:9272] Using device AMD Radeon RX 470 (high power)
 Initializing Metal device caps: AMD Radeon RX 470
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.4f1c1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.4f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.4f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56190
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56797
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000567 seconds.
+Registered in 0.000608 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 57.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 62.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.461 seconds
+- Completed reload, in  2.506 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000826 seconds.
+Registered in 0.001100 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 58.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 63.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.964 seconds
+- Completed reload, in  0.992 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2484 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 231.6 MB.
-System memory in use after: 231.8 MB.
+System memory in use before: 235.1 MB.
+System memory in use after: 235.2 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2946.
-Total: 2.747527 ms (FindLiveObjects: 0.325317 ms CreateObjectMapping: 0.148286 ms MarkObjects: 2.166017 ms  DeleteObjects: 0.106778 ms)
+Total: 1.991649 ms (FindLiveObjects: 0.254618 ms CreateObjectMapping: 0.091574 ms MarkObjects: 1.569442 ms  DeleteObjects: 0.075179 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/DemoSceneSettings.lighting
-  artifactKey: Guid(118242924a46f414d99fb8c74f1f47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DemoSceneSettings.lighting using Guid(118242924a46f414d99fb8c74f1f47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'fef6047b04ecf99316342a47aa8c26db') in 0.840331 seconds
-  Import took 0.845367 seconds .
+  path: Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/NormalAttack01_SwordShield.fbx
+  artifactKey: Guid(e160663af1b56d44e94a7ceb3007c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/NormalAttack01_SwordShield.fbx using Guid(e160663af1b56d44e94a7ceb3007c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e9ccc2e665276d2583963e0b9d45fa') in 0.530504 seconds
+  Import took 0.534542 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Scenes/DemoScene_01Settings.lighting
-  artifactKey: Guid(e520a9fbc2f7e45598bdbdb37ff48206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DemoScene_01Settings.lighting using Guid(e520a9fbc2f7e45598bdbdb37ff48206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'e3c71f28f41cd817d66a89b84a7c6b44') in 0.001632 seconds
-  Import took 0.004403 seconds .
+  Time since last request: 2.511701 seconds.
+  path: Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/NormalAttack02_SwordShield.fbx
+  artifactKey: Guid(dfbba31277e926e44b3def7cde351a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/NormalAttack02_SwordShield.fbx using Guid(dfbba31277e926e44b3def7cde351a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e97889b56d6a115debb62a86550ad59') in 0.058903 seconds
+  Import took 0.062733 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.314102 seconds.
-  path: Assets/Scenes/LightSettings
-  artifactKey: Guid(8a762135c328a4b78942565967f22c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LightSettings using Guid(8a762135c328a4b78942565967f22c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafcf2f49fca64280fdcb93854814bd8') in 0.001220 seconds
-  Import took 0.004578 seconds .
+  Time since last request: 12.060005 seconds.
+  path: Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/JumpStart_SwordShield.fbx
+  artifactKey: Guid(d14e20c1fb3843e4b9daf75b6cfbbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/JumpStart_SwordShield.fbx using Guid(d14e20c1fb3843e4b9daf75b6cfbbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3608e98b7b0dce66dfc8e0b6744238e2') in 0.063560 seconds
+  Import took 0.067167 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.835417 seconds.
-  path: Assets/Scenes/DemoScene.unity
-  artifactKey: Guid(424becdbb68cf4c109e0b90a4ac04338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DemoScene.unity using Guid(424becdbb68cf4c109e0b90a4ac04338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e027c7530194e9a4e6f32fbed73f714') in 0.000970 seconds
-  Import took 0.004452 seconds .
+  Time since last request: 4.870636 seconds.
+  path: Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/JumpAir_SwordShield.fbx
+  artifactKey: Guid(a43744858553805469a923cb4e94d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/JumpAir_SwordShield.fbx using Guid(a43744858553805469a923cb4e94d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e813deb1772d05a4aacd5b72934c488') in 0.060774 seconds
+  Import took 0.064737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.344526 seconds.
-  path: Assets/Scenes/DemoScene_01.unity
-  artifactKey: Guid(acda6b43f718d4e7b95de4b89543e389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DemoScene_01.unity using Guid(acda6b43f718d4e7b95de4b89543e389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf947309bb729b9aec05618a8039ce') in 0.000923 seconds
-  Import took 0.004246 seconds .
+  Time since last request: 3.343166 seconds.
+  path: Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/JumpAttack_SwordShield.fbx
+  artifactKey: Guid(e74dfda522c185847bb596f287b0a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/JumpAttack_SwordShield.fbx using Guid(e74dfda522c185847bb596f287b0a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b729eacdea8404da810da26045ad7a03') in 0.060370 seconds
+  Import took 0.064664 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.847907 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(424becdbb68cf4c109e0b90a4ac04338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(424becdbb68cf4c109e0b90a4ac04338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48780f5faf242164922549c6fce2c0e8') in 0.001024 seconds
-  Import took 0.004311 seconds .
+  Time since last request: 9.603530 seconds.
+  path: Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/Run_SwordShield.fbx
+  artifactKey: Guid(abf17d9bb94bc1d49a5e56bddc992491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Package/ModularRPGHeroesPolyArt/Animations/SwordShield/Run_SwordShield.fbx using Guid(abf17d9bb94bc1d49a5e56bddc992491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2319c9455fb0401319120cef6d64582f') in 0.060036 seconds
+  Import took 0.063833 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 14.318298 seconds.
-  path: Assets/Scenes/LightSettings/MainSceneLightingSettings.lighting
-  artifactKey: Guid(118242924a46f414d99fb8c74f1f47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LightSettings/MainSceneLightingSettings.lighting using Guid(118242924a46f414d99fb8c74f1f47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'e677e810588c4495e6027fe622a6c19c') in 0.002142 seconds
-  Import took 0.005963 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.1 MB.
+System memory in use after: 253.3 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 38.799177 seconds.
-  path: Assets/Scenes/LightingSettings
-  artifactKey: Guid(8a762135c328a4b78942565967f22c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LightingSettings using Guid(8a762135c328a4b78942565967f22c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db47373ec4155229b611468b86e47e78') in 0.000739 seconds
-  Import took 0.004225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1404.788202 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(8389415f2c2024ba1a2ea356cdfd8fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(8389415f2c2024ba1a2ea356cdfd8fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133615ddd1753d8dca4041258d76e91c') in 0.001203 seconds
-  Import took 0.004268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.316795 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(9dcc73195e6ce4cdcbbb1d87d022c0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(9dcc73195e6ce4cdcbbb1d87d022c0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aaf2b3783a14e67727cf5926e85d98e') in 0.001143 seconds
-  Import took 0.004249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.013440 seconds.
-  path: Assets/Animations
-  artifactKey: Guid(4a92d0fb738bd4f74836ab6db40af535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(4a92d0fb738bd4f74836ab6db40af535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041abcb820de0eb4fc7695ca987991f1') in 0.001131 seconds
-  Import took 0.004275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.342299 seconds.
-  path: Assets/Animations/Clips
-  artifactKey: Guid(6e8c6decdf05340048e3c176d32f3804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Clips using Guid(6e8c6decdf05340048e3c176d32f3804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9beb5f14ed2976968ce3999f097be1') in 0.001131 seconds
-  Import took 0.004219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.840702 seconds.
-  path: Assets/Animations/Animator
-  artifactKey: Guid(13cf7f66293c04530b37ecc9cead1b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Animator using Guid(13cf7f66293c04530b37ecc9cead1b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d4d122cff6aa5781b9c86105a9e472') in 0.001126 seconds
-  Import took 0.004215 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2998.
+Total: 2.804958 ms (FindLiveObjects: 0.375614 ms CreateObjectMapping: 0.181257 ms MarkObjects: 2.184090 ms  DeleteObjects: 0.062667 ms)
 
