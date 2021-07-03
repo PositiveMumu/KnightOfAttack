@@ -1,0 +1,585 @@
+[
+  {
+  "ItemID" : 1,
+  "ItemIconPath": "Sprites/Items/Consumables/red_0",
+  "ItemName": "学徒练手的生命药水",
+  "ItemType": "ConsumableItem",
+  "ItemDescription": "生命女神的馈赠，使用后立即恢复10点生命值",
+  "ItemStackSize": 20,
+  "ItemBuyPrice": 10,
+  "ItemSellPrice": 5, 
+  "CoolDownTime": 0,
+  "ConsumableOverTime":false,
+  "Duration": 0,
+  "ItemEffectList": [
+    {
+      "Type":"HP",
+      "Value": 10
+    }
+  ]
+  },
+  {
+    "ItemID" : 2,
+    "ItemIconPath": "Sprites/Items/Consumables/red_1",
+    "ItemName": "初级生命药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "生命女神的馈赠，使用后立即恢复20点生命值",
+    "ItemStackSize": 20,
+    "ItemBuyPrice": 20,
+    "ItemSellPrice": 10,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":false,
+    "Duration": 0,
+    "ItemEffectList": [
+      {
+        "Type":"HP",
+        "Value": 20
+      }
+    ]
+  },
+  {
+    "ItemID" : 3,
+    "ItemIconPath": "Sprites/Items/Consumables/red_2",
+    "ItemName": "高级生命药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "生命女神的馈赠，使用后立即恢复30点生命值",
+    "ItemStackSize": 10,
+    "ItemBuyPrice": 30,
+    "ItemSellPrice": 15,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":false,
+    "Duration": 0,
+    "ItemEffectList": [
+      {
+        "Type":"HP",
+        "Value": 30
+      }
+    ]
+  },
+  {
+    "ItemID" : 4,
+    "ItemIconPath": "Sprites/Items/Consumables/red_3",
+    "ItemName": "史诗级生命药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "生命女神的馈赠，使用后立即恢复50点生命值",
+    "ItemStackSize": 10,
+    "ItemBuyPrice": 40,
+    "ItemSellPrice": 20,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":false,
+    "Duration": 0,
+    "ItemEffectList": [
+      {
+        "Type":"HP",
+        "Value": 40
+      }
+    ]
+  },
+  {
+    "ItemID" : 5,
+    "ItemIconPath": "Sprites/Items/Consumables/red_4",
+    "ItemName": "传说级生命药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "生命女神的馈赠，使用后每秒恢复40点生命值，持续7秒",
+    "ItemStackSize": 5,
+    "ItemBuyPrice": 70,
+    "ItemSellPrice": 30,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":true,
+    "Duration": 7,
+    "ItemEffectList": [
+      {
+        "Type":"HP",
+        "Value": 40
+      }
+    ]
+  },
+  {
+    "ItemID" : 6,
+    "ItemIconPath": "Sprites/Items/Consumables/blue_0",
+    "ItemName": "学徒练手的攻击药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "战争女神的馈赠，使用后立即增加10%攻击力，持续10秒",
+    "ItemStackSize": 20,
+    "ItemBuyPrice": 10,
+    "ItemSellPrice": 5,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":true,
+    "Duration": 10,
+    "ItemEffectList": [
+      {
+        "Type":"Attack",
+        "Value": 0.1
+      }
+    ]
+  },
+  {
+    "ItemID" : 7,
+    "ItemIconPath": "Sprites/Items/Consumables/blue_1",
+    "ItemName": "初级攻击药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "战争女神的馈赠，使用后立即增加15%攻击力，持续15秒",
+    "ItemStackSize": 20,
+    "ItemBuyPrice": 20,
+    "ItemSellPrice": 10,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":true,
+    "Duration": 15,
+    "ItemEffectList": [
+      {
+        "Type":"Attack",
+        "Value": 0.15
+      }
+    ]
+  },
+  {
+    "ItemID" : 8,
+    "ItemIconPath": "Sprites/Items/Consumables/blue_2",
+    "ItemName": "高级攻击药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "战争女神的馈赠，使用后立即增加20%攻击力，持续15秒",
+    "ItemStackSize": 10,
+    "ItemBuyPrice": 30,
+    "ItemSellPrice": 15,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":true,
+    "Duration": 15,
+    "ItemEffectList": [
+      {
+        "Type":"Attack",
+        "Value": 0.2
+      }
+    ]
+  },
+  {
+    "ItemID" : 9,
+    "ItemIconPath": "Sprites/Items/Consumables/blue_3",
+    "ItemName": "史诗级攻击药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "战争女神的馈赠，使用后立即增加25%攻击力，持续20秒",
+    "ItemStackSize": 10,
+    "ItemBuyPrice": 40,
+    "ItemSellPrice": 20,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":true,
+    "Duration": 20,
+    "ItemEffectList": [
+      {
+        "Type":"Attack",
+        "Value": 0.25
+      }
+    ]
+  },
+  {
+    "ItemID" : 10,
+    "ItemIconPath": "Sprites/Items/Consumables/blue_4",
+    "ItemName": "传说级攻击药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "战争女神的馈赠，使用后立即增加40%攻击力，持续30秒",
+    "ItemStackSize": 5,
+    "ItemBuyPrice": 70,
+    "ItemSellPrice": 30,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":true,
+    "Duration": 30,
+    "ItemEffectList": [
+      {
+        "Type":"Attack",
+        "Value": 0.4
+      }
+    ]
+  },
+  {
+    "ItemID" : 11,
+    "ItemIconPath": "Sprites/Items/Consumables/blue_5",
+    "ItemName": "传说级防御药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "战争女神的馈赠，使用后立即增加40%防御力，持续30秒",
+    "ItemStackSize": 5,
+    "ItemBuyPrice": 70,
+    "ItemSellPrice": 30,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":true,
+    "Duration": 30,
+    "ItemEffectList": [
+      {
+        "Type":"Defence",
+        "Value": 0.4
+      }
+    ]
+  },
+  {
+    "ItemID" : 12,
+    "ItemIconPath": "Sprites/Items/Consumables/purple_1",
+    "ItemName": "传说级攻速药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "战争女神的馈赠，使用后立即增加40%攻击速度，持续30秒",
+    "ItemStackSize": 5,
+    "ItemBuyPrice": 70,
+    "ItemSellPrice": 30,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":true,
+    "Duration": 30,
+    "ItemEffectList": [
+      {
+        "Type":"AttackSpeed",
+        "Value": 0.4
+      }
+    ]
+  },
+  {
+    "ItemID" : 13,
+    "ItemIconPath": "Sprites/Items/Consumables/green_1",
+    "ItemName": "传说级移动药水",
+    "ItemType": "ConsumableItem",
+    "ItemDescription": "战争女神的馈赠，使用后立即增加40%移动速度，持续30秒",
+    "ItemStackSize": 5,
+    "ItemBuyPrice": 70,
+    "ItemSellPrice": 30,
+    "CoolDownTime": 0,
+    "ConsumableOverTime":true,
+    "Duration": 30,
+    "ItemEffectList": [
+      {
+        "Type":"MoveSpeed",
+        "Value": 0.4
+      }
+    ]
+  },
+  {
+    "ItemID" : 14,
+    "ItemIconPath": "Sprites/Items/Equipments/Armor_1",
+    "ItemName": "棉布盔甲",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "简陋的棉布盔甲，只能抵挡5点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 50,
+    "ItemSellPrice": 20,
+    "EquipmentType": "Armor",
+    "Defence": 5,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 15,
+    "ItemIconPath": "Sprites/Items/Equipments/Armor_2",
+    "ItemName": "丝绸盔甲",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "利用东方的神秘丝绸制作的盔甲，可以抵挡10点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 70,
+    "ItemSellPrice": 30,
+    "EquipmentType": "Armor",
+    "Defence": 10,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 16,
+    "ItemIconPath": "Sprites/Items/Equipments/Armor_3",
+    "ItemName": "钢铁盔甲",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "坚硬钢铁制作的盔甲，能抵挡15点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 100,
+    "ItemSellPrice": 40,
+    "EquipmentType": "Armor",
+    "Defence": 15,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 17,
+    "ItemIconPath": "Sprites/Items/Equipments/Armor_4",
+    "ItemName": "精金盔甲",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "最坚硬的精金制作的盔甲，能抵挡20点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 150,
+    "ItemSellPrice": 70,
+    "EquipmentType": "Armor",
+    "Defence": 20,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 18,
+    "ItemIconPath": "Sprites/Items/Equipments/Helmet_1",
+    "ItemName": "棉布头盔",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "简陋的棉布盔甲，只能抵挡3点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 30,
+    "ItemSellPrice": 10,
+    "EquipmentType": "Helmet",
+    "Defence": 3,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 19,
+    "ItemIconPath": "Sprites/Items/Equipments/Helmet_2",
+    "ItemName": "丝绸头盔",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "利用东方的神秘丝绸制作的手套，可以抵挡7点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 50,
+    "ItemSellPrice": 20,
+    "EquipmentType": "Helmet",
+    "Defence": 7,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 20,
+    "ItemIconPath": "Sprites/Items/Equipments/Helmet_3",
+    "ItemName": "钢铁头盔",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "坚硬钢铁制作的手套，可以抵挡10点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 70,
+    "ItemSellPrice": 30,
+    "EquipmentType": "Helmet",
+    "Defence": 10,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 21,
+    "ItemIconPath": "Sprites/Items/Equipments/Helmet_4",
+    "ItemName": "精金头盔",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "最坚硬的精金制作的手套，可以抵挡15点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 100,
+    "ItemSellPrice": 40,
+    "EquipmentType": "Helmet",
+    "Defence": 15,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 22,
+    "ItemIconPath": "Sprites/Items/Equipments/Glove_1",
+    "ItemName": "棉布手套",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "简陋的棉布盔甲，可以增加5%的攻击速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 30,
+    "ItemSellPrice": 10,
+    "EquipmentType": "Glove",
+    "Defence": 0,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0.05
+  },
+  {
+    "ItemID" : 23,
+    "ItemIconPath": "Sprites/Items/Equipments/Glove_2",
+    "ItemName": "丝绸手套",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "利用东方的神秘丝绸制作的手套，可以增加10%的攻击速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 50,
+    "ItemSellPrice": 20,
+    "EquipmentType": "Glove",
+    "Defence": 0,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0.1
+  },
+  {
+    "ItemID" : 24,
+    "ItemIconPath": "Sprites/Items/Equipments/Glove_3",
+    "ItemName": "钢铁手套",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "坚硬钢铁制作的手套，可以增加15%的攻击速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 70,
+    "ItemSellPrice": 30,
+    "EquipmentType": "Glove",
+    "Defence": 0,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0.15
+  },
+  {
+    "ItemID" : 25,
+    "ItemIconPath": "Sprites/Items/Equipments/Glove_4",
+    "ItemName": "精金手套",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "最坚硬的精金制作的手套，可以增加20%的攻击速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 100,
+    "ItemSellPrice": 40,
+    "EquipmentType": "Glove",
+    "Defence": 0,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0.2
+  },
+  {
+    "ItemID" : 26,
+    "ItemIconPath": "Sprites/Items/Equipments/Shoes_1",
+    "ItemName": "棉布靴子",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "简陋的棉布盔甲，可以增加5%的移动速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 30,
+    "ItemSellPrice": 10,
+    "EquipmentType": "Shoes",
+    "Defence": 0,
+    "MoveSpeed": 0.5,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 27,
+    "ItemIconPath": "Sprites/Items/Equipments/Shoes_2",
+    "ItemName": "丝绸靴子",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "利用东方的神秘丝绸制作的手套，可以增加10%的移动速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 50,
+    "ItemSellPrice": 20,
+    "EquipmentType": "Shoes",
+    "Defence": 0,
+    "MoveSpeed": 0.1,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 28,
+    "ItemIconPath": "Sprites/Items/Equipments/Shoes_3",
+    "ItemName": "钢铁靴子",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "坚硬钢铁制作的手套，可以增加15%的移动速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 70,
+    "ItemSellPrice": 30,
+    "EquipmentType": "Shoes",
+    "Defence": 0,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0.15
+  },
+  {
+    "ItemID" : 29,
+    "ItemIconPath": "Sprites/Items/Equipments/Shoes_4",
+    "ItemName": "精金靴子",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "最坚硬的精金制作的手套，可以增加20%的移动速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 100,
+    "ItemSellPrice": 40,
+    "EquipmentType": "Shoes",
+    "Defence": 0,
+    "MoveSpeed": 0,
+    "AttackSpeed": 0.2
+  },
+  {
+    "ItemID" : 30,
+    "ItemIconPath": "Sprites/Items/Weapons/Sword_1",
+    "ItemName": "破旧的剑",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "一把残破不堪的剑，可以增加5点攻击力",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 50,
+    "ItemSellPrice": 20,
+    "WeaponType": "RightHandedWeapon",
+    "Attack": 5,
+    "Defence": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 31,
+    "ItemIconPath": "Sprites/Items/Weapons/Sword_1",
+    "ItemName": "崭新的剑",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "一把刚刚打造的剑，可以增加10点攻击力",
+    "ItemStackSize": 1,
+    "ItemBuyPrice":70,
+    "ItemSellPrice": 30,
+    "WeaponType": "RightHandedWeapon",
+    "Attack": 10,
+    "Defence": 0,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 32,
+    "ItemIconPath": "Sprites/Items/Weapons/Sword_1",
+    "ItemName": "钢铁之剑",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "利用坚硬钢铁打造的剑，可以增加20点攻击力并且增加10%的攻击速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 100,
+    "ItemSellPrice": 40,
+    "WeaponType": "RightHandedWeapon",
+    "Attack": 20,
+    "Defence": 0,
+    "AttackSpeed": 0.1
+  },
+  {
+    "ItemID" : 33,
+    "ItemIconPath": "Sprites/Items/Weapons/Sword_1",
+    "ItemName": "精金宝剑",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "使用最坚硬的精金打造的剑，可以增加40点攻击力并且增加20%的攻击速度",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 150,
+    "ItemSellPrice": 70,
+    "WeaponType": "RightHandedWeapon",
+    "Attack": 40,
+    "Defence": 0,
+    "AttackSpeed": 0.2
+  },
+  {
+    "ItemID" : 34,
+    "ItemIconPath": "Sprites/Items/Weapons/Shield_1",
+    "ItemName": "破旧的盾牌",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "一把残破不堪的盾牌，可以抵御5点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 50,
+    "ItemSellPrice": 20,
+    "WeaponType": "LeftHandedWeapon",
+    "Attack": 0,
+    "Defence": 5,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 35,
+    "ItemIconPath": "Sprites/Items/Weapons/Shield_2",
+    "ItemName": "崭新的盾牌",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "一把刚刚打造的剑，可以抵御10点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice":70,
+    "ItemSellPrice": 30,
+    "WeaponType": "LeftHandedWeapon",
+    "Attack": 0,
+    "Defence": 10,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 36,
+    "ItemIconPath": "Sprites/Items/Weapons/Shield_3",
+    "ItemName": "钢铁盾牌",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "利用坚硬钢铁打造的剑，可以抵御20点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 100,
+    "ItemSellPrice": 40,
+    "WeaponType": "LeftHandedWeapon",
+    "Attack": 0,
+    "Defence": 20,
+    "AttackSpeed": 0
+  },
+  {
+    "ItemID" : 37,
+    "ItemIconPath": "Sprites/Items/Weapons/Shield_4",
+    "ItemName": "精金盾牌",
+    "ItemType": "EquipmentItem",
+    "ItemDescription": "使用最坚硬的精金打造的剑，可以抵御30点伤害",
+    "ItemStackSize": 1,
+    "ItemBuyPrice": 150,
+    "ItemSellPrice": 70,
+    "WeaponType": "LeftHandedWeapon",
+    "Attack": 0,
+    "Defence":30,
+    "AttackSpeed": 0
+  }
+]
