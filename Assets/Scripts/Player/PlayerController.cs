@@ -38,11 +38,11 @@ public class PlayerController : MonoBehaviour
     {
         if (moveDir.sqrMagnitude > 0.01)
         {
-            rigidbody.velocity =  Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(0,0,moveDir.y)*moveSpeed;
-            // Quaternion q = Quaternion.identity;
-            // q.SetLookRotation(camera.transform.forward);//setlookrotaion定义看向指定方向的rotation
-            transform.Rotate(new Vector3(0,moveDir.x, 0).normalized * Time.deltaTime * 90);
-            camera.transform.rotation=Quaternion.RotateTowards(camera.transform.rotation,Quaternion.Euler(0,transform.eulerAngles.y,0),5f );
+            rigidbody.velocity = new Vector3(0,rigidbody.velocity.y,0)+Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(moveDir.x,0,moveDir.y)*moveSpeed;
+            Quaternion q = Quaternion.identity;
+            q.SetLookRotation(camera.transform.forward);//setlookrotaion定义看向指定方向的rotation
+            transform.rotation=Quaternion.RotateTowards(transform.rotation,q,5f );
+            
         }
     }
     

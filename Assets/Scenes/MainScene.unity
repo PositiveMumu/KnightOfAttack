@@ -53950,6 +53950,10 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1591480958}
+    - target: {fileID: 1395715955, guid: 77ac70fc1a05743eebca026f34b9568f, type: 3}
+      propertyPath: m_Mass
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6342031445356227340, guid: 77ac70fc1a05743eebca026f34b9568f, type: 3}
       propertyPath: m_RootOrder
       value: 10
